@@ -4,6 +4,6 @@ public class MyArraySizeException extends Exception {
 
 
     public MyArraySizeException(String ex) {
-        System.out.println(ex+ "\n");
+        super(ex);
     }
 }

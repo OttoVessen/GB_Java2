@@ -4,7 +4,7 @@ public class MyArrayDataException extends Exception {
 
     public MyArrayDataException (String ex){
 
-        System.out.println(ex);
+        super(ex);
     }
 
 }
